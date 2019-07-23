@@ -52,6 +52,12 @@ TRAJECTORY_BUILDER_2D.min_range = 0.4
 TRAJECTORY_BUILDER_2D.max_range = 12
 TRAJECTORY_BUILDER_2D.use_online_correlative_scan_matching = false
 TRAJECTORY_BUILDER_2D.voxel_filter_size = 0.05
+
+TRAJECTORY_BUILDER_2D.ceres_scan_matcher.translation_weight = 0.2
+TRAJECTORY_BUILDER_2D.ceres_scan_matcher.rotation_weight = 0.4
+
+
+
 -- POSE_GRAPH.constraint_builder.min_score = 0.8
 
 -- TRAJECTORY_BUILDER_2D.real_time_correlative_scan_matcher.linear_search_window = 0.1
