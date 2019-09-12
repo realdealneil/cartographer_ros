@@ -24,7 +24,7 @@
   <node name="cartographer_node" pkg="cartographer_ros"
       type="cartographer_node" args="
           -configuration_directory $(find cartographer_ros)/configuration_files
-          -configuration_basename cantean_backpack2d.lua"
+          -configuration_basename cantean_backpack_2d.lua"
       output="screen">
     <!--<remap from="echoes" to="horizontal_laser_2d" />-->
     <remap from="imu" to="/mavros/imu/data" />
